@@ -1,0 +1,38 @@
+.film-video {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 16rem;
+    left: 25rem;
+  }
+  
+  .film-details {
+    place-content: center flex-start;
+    display: flex;
+    -webkit-box-pack: start;
+    flex-flow: row wrap;
+    margin: 0px 0px 0px -20px;
+  }
+  
+  .film-detail {
+    margin: 20px 0px 0px 20px;
+    flex: 0 0 auto;
+    width: calc(20% - 20px);
+  }
+  
+  .film-detail h5 {
+    color: white;
+    font: bold;
+  }
+  
+  .film-bg-img {
+    left: 0px;
+    opacity: 0.25;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    transition: opacity 200ms ease 0s;
+    width: 100%;
+    z-index: 0;
+  }
+  
